@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Rock Paper Scissors</title>
+    <link href="rps.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+  <body>
+    <div class="game_page">
+      <header>
+        <a href="index.html">
+          Vlad's Fun Games
+        </a>
+        <div>
+          <a href="index.html" class="button_wrap"><button>< Back to Arcade Home</button></a>
+        </div>
+      </header>
+  
+      <main class="game">
+        <div id="page_content">
+          <h1>Rock Paper Scissors!</h1>
+          <h2>Make your choice:</h2>
+          <span>
+              <input type="button" value="rock" id="rock">
+              <input type="button" value="paper" id="paper">
+              <input type="button" value="scissors" id="scissors">
+          </span>
+          
+          <h2>User:</h2>
+          <p id="user_choice"></p>
+      
+          <h2>Computer:</h2>
+          <p id="computer_choice"></p>
+      
+          <h2>Results:</h2>
+          <p id="winner"></p>
+        </div>
+      </main>
+      
+      <footer>
+        <p id="credits">This site was created for educational purposes only by someone at <a href="https://www.bellevuecollege.edu">Bellevue College</a></p>
+      </footer>
+      <script src="rps.js"></script>
+    </div>
+    </body>
+  </html>
